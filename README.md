@@ -13,7 +13,7 @@
 
 <p>Para gerar o executável basta executar o seguinte comando na pasta raíz do projeto:</p>
 
-> dotnet publish -c Release -r win-x64 --sc -o ./Executavel -p:PublishSingleFile=true
+> dotnet publish -c Release -r win-x64 --sc -o Executavel -p:PublishSingleFile=true
 
 <p>Com o executável gerado é feito o agendamento de uma tarefa no windows que executa o .exe gerado anteriormente.</p>
 <p>A notificação do windows utiliza o ícone do projeto que pode ser alterado no arquivo .csproj.</p>
