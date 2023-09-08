@@ -1,6 +1,6 @@
 ## VigneNotificationApp
 
-<p>AplicaÁ„o para enviar notificaÁıes para um usu·rio no Windows 10.</p>
+<p>Aplica√ß√£o para enviar notifica√ß√µes para um usu√°rio no Windows 10.</p>
 
 ### Tecnologias
 
@@ -9,12 +9,16 @@
 	<li>Nuget: Microsoft.Toolkit.Uwp.Notifications</li>
 </ul>
 
-### ExecuÁ„o
+### Execu√ß√£o
 
-<p>Para gerar o execut·vel basta executar o seguinte comando na pasta raÌz do projeto:</p>
+<p>Para gerar o execut√°vel basta executar o seguinte comando na pasta ra√≠z do projeto:</p>
 
 > dotnet publish -c Release -r win-x64 --sc -o ./Executavel -p:PublishSingleFile=true
 
-<p>Com o execut·vel gerado È feito o agendamento de uma tarefa no windows que executa o .exe gerado anteriormente.</p>
-<p>A notificaÁ„o do windows utiliza o Ìcone do projeto que pode ser alterado no arquivo .csproj.</p>
-<p>A aplicaÁ„o recebe 1 argumento que È o nome do usu·rio que ir· aparecer na notificaÁ„o.</p>
+<p>Com o execut√°vel gerado √© feito o agendamento de uma tarefa no windows que executa o .exe gerado anteriormente.</p>
+<p>A notifica√ß√£o do windows utiliza o √≠cone do projeto que pode ser alterado no arquivo .csproj.</p>
+<p>A aplica√ß√£o recebe 1 argumento que √© o nome do usu√°rio que ir√° aparecer na notifica√ß√£o.</p>
+<p>A imagem deve ser salva em C:/TarefasAgendadas/appNotificationImage.png</p>
+### Exemplo Notifica√ß√£o
+
+![exemplo](https://github.com/VigneTsuki/VigneNotificationApp/assets/80185960/31754461-26e7-4f42-994a-62a5db75739b)
