@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VigneNotificationApp": {
+      "commandName": "Project",
+      "commandLineArgs": "Vigne"
+    }
+  }
+}
